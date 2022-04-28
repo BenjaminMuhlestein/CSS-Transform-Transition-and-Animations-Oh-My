@@ -10,10 +10,16 @@ main {
   margin: auto;
   display: flex;
   align-items: center;
+  transform-origin: left top;
+	transform: skewY(-8deg);
 }
 
 main > div {
   width: 40%;
   margin: auto;
   padding: 10%;
+}
+h1{
+  padding-left: 10.5em;
+  padding-bottom: 1em;
 }
